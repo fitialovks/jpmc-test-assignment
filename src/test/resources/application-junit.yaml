@@ -1,0 +1,7 @@
+# Note that YAML configuration overrides lists. There will be no 'foo' in the properties.
+validators:
+  http:
+    'test-1':
+      uri: 'http://foo'
+    'test-2':
+      uri: 'http://bar'

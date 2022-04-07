@@ -1,0 +1,4 @@
+validators:
+  http:
+    foo:
+      uri: 'http://foo-testing/v1/api/validate'

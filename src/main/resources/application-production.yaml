@@ -1,0 +1,6 @@
+validators:
+  http:
+    foo:
+      uri: 'http://foo-production/v1/api/validate'
+    bar:
+      uri: 'http://bar-production/v1/api/validate'
