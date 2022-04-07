@@ -1,3 +1,15 @@
+## Usage
+
+```shell
+# Build and start
+./gradlew bootRun
+
+# Run curl to send a request
+./validate.sh
+```
+
+## Description
+
 You need to implement a rest service that accepts requests to validate an account and returns information if the
 requested account is valid. The service doesn't store any data but instead sends requests to other account data sources,
 aggregates this data and returns to the client. You DO NOT need to implement data sources, only the service. You can
